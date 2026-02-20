@@ -1,0 +1,27 @@
+css gives syles to raw html
+css stands for cascading style sheets
+css is used to give styles to our web pages
+css is used to make website responsive
+HTML is used to structure a website
+css takes responsibility of feDiffuseLighting
+
+css syntax
+selector{
+    property: value;
+}selector is the element to which we want to apply styles ex:p
+property is the style we want to apply ex:color
+value is the value of the style we want to apply ex:blue
+
+example
+header,p.intro{
+    background-color:blue;
+    border-radius: 3px;
+}
+ intro is class of paragraph
+
+
+three ways to add css to the markup(html)
+1. inline css: css is added to the elements directly using style attribute
+2. internal css : css is kept inside the head tags in <style> tags
+3. external css : css is kept seperately inside a css style sheet
+* more importance is given to inline css than internal 

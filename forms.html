@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h2>This is HTML form tutorial</h2>
+    <!-- backend php is a place where data of the user is submitted -->
+    <form action="backend.php">
+        <lAbel for="name">Name</lAbel>
+        <div>
+        <input type="text" name="myname" id="name">
+        </div><br>
+        <!-- it will be apply for all -->
+        <div>
+        Role: <input type="text" name="my role">
+        </div><br>
+        <div>
+        email: <input type="email" name="my email">
+        </div><br>
+        <div>
+            Date: <input type="date" name=" my date" >
+        </div><br>
+        <div>Contact: <input type="number" name="my number" ></div><br>
+        <div>Password: <input type="password" name="my password"></div><br>
+        <div>
+            Are you eligible?: <input type="checkbox" name="my eligibility" >
+        </div><br>
+        <div>
+            Gender: male <input type="radio" name="my gender"> female <input type="radio" name="my gender">
+            other <input type="radio" name="my gender">
+        </div><br>
+        <div>
+        <label for="car">car
+            <select name="my car" id="car">
+                <option value="ind"selected>indica</option>
+                <option value="swf">swift</option>
+            </select>
+        </label></div><br>
+        <div>
+            write about yourself: <br> <textarea name="my text" cols="20" rows="10"></textarea>
+        </div> <br>
+        <div>
+            <input type="submit" value="submit now">
+        </div><br>
+        <!-- alt plus down arrow key is used to setting the statement  downward -->
+         <div><input type="reset" value="reset now"></div>
+    </form>
+    <!-- name attribute is used by which backend understand the user data -->
+     <!-- in number type of input e alphabet is allowed -->
+      <!-- reset button is used to fill the form again by clearing all data filled by user -->
+
+</body>
+</html>
